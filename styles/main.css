@@ -1,8 +1,8 @@
 body {
-  background-color: blue;
+  background-color: #d3d3d3;
 }
 
-div #googleMap {
+#map {
   height: 250px;
   width: 100%;
 }
