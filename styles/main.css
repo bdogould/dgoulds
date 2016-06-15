@@ -1,8 +1,10 @@
 body {
   background-color: #d3d3d3;
-}
+  font-family: verdana;
+  font-size: 14px; }
 
 #map {
   height: 250px;
-  width: 100%;
-}
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

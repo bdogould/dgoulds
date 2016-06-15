@@ -17,7 +17,7 @@ function initMap() {
     mapTypeId:google.maps.MapTypeId.HYBRID
   });
 
-  fetch('markers.json')
+  fetch('json/markers.json')
     .then(function(response){return response.json()})
     .then(plotMarkers);
 }
