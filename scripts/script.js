@@ -36,7 +36,8 @@ function plotMarkers(m) {
       new google.maps.Marker({
         position: position,
         map: map,
-        animation: google.maps.Animation.DROP
+        animation: google.maps.Animation.DROP,
+        size: tiny
       })
     );
     bounds.extend(position)

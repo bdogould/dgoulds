@@ -3,7 +3,6 @@
 
 /* For mobile phones: */
 [class*="col-"] {
-  width: 100%;
   padding: 15px;
   border: 1px solid red; }
 
@@ -87,8 +86,9 @@ body {
   font-size: 14px; }
 
 #map {
+  border: solid blue 1px;
   height: 250px;
-  width: 100%;
+  top: 25px;
   position: relative; }
 
 ul {
@@ -103,6 +103,7 @@ ul {
 .boxes {
   height: auto;
   border: blue 1px solid;
-  background-color: white; }
+  background-color: white;
+  position: relative; }
 
 /*# sourceMappingURL=main.css.map */
